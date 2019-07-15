@@ -41,6 +41,13 @@
 
 # Comparators 
 
+- ==
+- !=
+- <
+- >
+- <=
+- >=
+
 ---
 
 # Coding Time 
