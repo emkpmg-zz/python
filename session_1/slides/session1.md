@@ -35,15 +35,23 @@
 
 ---
 
-- run python script
+# Running a Python Script
 
 ---
 
-- hello world code
+- hello world code, from file. 
 
 ---
 
-# Interpreter
+# Interpreter - Opening and Exiting
+
+---
+
+# Naming Python Files
+
+---
+
+# Text Editor
 
 ---
 
@@ -72,7 +80,7 @@
 ---
 
 # Coding Time 
-- Questions 1 - 4 
+- Section A
 
 ---
 
@@ -107,7 +115,7 @@
 ---
 
 # Coding Time 
-- Questions 5 - 9
+- Section B
 
 ---
 
@@ -132,7 +140,7 @@
 ---
 
 # Coding Time 
-- Rest of Questions 
+- Section C & D 
 
 ---
 
