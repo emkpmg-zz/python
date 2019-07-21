@@ -16,18 +16,15 @@
 - Write code that prints the value of 8 multiplied by 7
 - Write code that prints the value of 144 divided by 12
 - Write code that prints the value of the remainder of 67 divided by 12
-
-## Section C
 - Write code that finds the value of `(2 * 4) – (6 / 3) + 5`
 - Write code that finds the value of `(48 / 12) * (67 - 24) - 11`
-- Write a boolean with a True outcome and another with a False outcome.
-- Write code that prints the length of the string, 'python'
 
-## Section D
-- Create a variable called name and give it the value of your name. Then print your name.
-- Create a variable called age and give it the value of your age years. Then print your age in 30 years.
-- Write code that prints a sentence about yourself including the variables of name and age.
-- Get the user to input a string and the print it
-- Get the user to input a string and then print it in all upper case
-- Get the user to input their age the print their age plus 30
-- Get the user to input a string and then print only the 2nd, 3rd, 4th letters
+## Section C
+- Create and then print out a variable called 'has_paid' that contains a boolean
+- Create two variables that hold the width and height of a rectangle, work out and store the area in a third variable. Print out the string: `Rectangle of length <x> and height <y> has an area of <area>`
+- Write code that prints the length of the string, 'python'
+- Print out the first and third letter of the word 'python'
+- Ask the user to enter their name, and print out "Hello, <name>"
+- Ask the user to enter their age, tell them how old they will be in 15 years time
+- Combine the two input statements above and print out the message "Hello, <name>, you are currently <age> years old. In 15 years time you will be <age_in_15_years_time>"
+- Ask the user to enter their home town, print it out in uppercase letters

@@ -4,10 +4,10 @@ y = int(2.6) # y will be 2
 z = int("3") # z will be 3
 
 # Float examples
-x = float(4)     # x will be 4.0
-y = float(5.6)   # y will be 5.6
-z = float("6")   # z will be 6.0
-w = float("7.3") # w will be 7.3
+w = float(4)     # w will be 4.0
+x = float(5.6)   # x will be 5.6
+y = float("6")   # y will be 6.0
+z = float("7.3") # z will be 7.3
 
 # String examples
 x = str("abc8") # x will be 'abc8'
