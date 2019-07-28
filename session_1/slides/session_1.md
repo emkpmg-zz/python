@@ -66,7 +66,7 @@ send_emails.py
 [.code-highlight: 1]
 [.code-highlight: 3]
 ```
-$ python <name_of_file.py>
+$ python <name_of_file>.py
 
 $ python hello_world.py
 ```
@@ -99,7 +99,7 @@ print("Hello, <your name here>")
 #### To Run:
 
 ```
-$ python <file_name.py>
+$ python <file_name>.py
 ```
 
 ---
@@ -181,11 +181,11 @@ shopping_list = "Apples\nBread\nMilk\nEggs"
 
 ---
 
-# Integers
+# Integer
 
 ---
 
-# Integers
+# Integer
 
 ```python
 age = 17
@@ -195,11 +195,11 @@ bottles_sitting_on_the_wall = 99
 
 ----
 
-# Floats
+# Float
 
 ----
 
-# Floats
+# Float
 
 ```python
 price = 12.99
@@ -420,9 +420,9 @@ sentence_length = len("Hello, World!") #13
 
 
 ```python
-name = "Charlie"
+name = "CHARLIE"
 print(name[0]) # Prints 'C'
-print(name[1]) # Prints 'h'
+print(name[1]) # Prints 'H'
 ```
 
 ---
