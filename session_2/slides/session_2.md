@@ -99,15 +99,15 @@ z = str(10.0) # z will be '10.0'
 
 # Index
 
-| C | h | a | r | l | i | e |
+| C | H | A | R | L | I | E |
 | --- | --- | --- | --- | --- | --- | --- |
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
 
 
 ```python
-name = "Charlie"
+name = "CHARLIE"
 print(name[0]) # Prints 'C'
-print(name[1]) # Prints 'h'
+print(name[1]) # Prints 'H'
 ```
 
 ---

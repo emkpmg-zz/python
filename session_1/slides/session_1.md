@@ -414,7 +414,7 @@ sentence_length = len("Hello, World!") #13
 
 # Index
 
-| C | h | a | r | l | i | e |
+| C | H | A | R | L | I | E |
 | --- | --- | --- | --- | --- | --- | --- |
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
 
