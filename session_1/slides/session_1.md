@@ -118,21 +118,21 @@ $ python <file_name.py>
 
 # Variables
 
-- Any mix of letters, numbers and some special characters
-- Must start with a letter
-- Keep lowercase
-- Use underscore where there are spaces
-
----
-
-# Variables
-
 ```python
 name = "Charlie"
 age = 27
 left_to_pay = 29.99
 has_paid = False
 ```
+
+---
+
+# Variables
+
+- Any mix of letters, numbers and some special characters
+- Must start with a letter
+- Keep lowercase
+- Use underscore where there are spaces
 
 ---
 
