@@ -133,22 +133,109 @@ print("In 10 years you will be " + str(age_in_10_years))
 
 ---
 
-# If...
+# If
 
 ---
 
-# Indenting
+# If
+
+```python
+if True:
+    print("This is always shown")
+
+if False:
+    print("This is never shown")    
+```
+
+---
+
+# If
+
+```python
+if <expression>:
+    # Will only be run if the expression is True
+    <code>
+```
 
 ---
 
 # Comparators
 
-- ==
-- !=
-- <
-- >
-- <=
-- >=
+| Comparator |  Description | Example |
+|--- | --- | --- |
+| == | Equals | "Alice" == "Alice"
+| != | Does not equal | "Bob" != "Charlie"
+| < | Less than | 4 < 10
+| > | Greater than | 12 > 8
+| <= | Less than or equal to | 7 <= 7
+| >= | Greater than or equal to | 8 >= 5
+
+---
+
+# Comparators
+
+[.code-highlight: 1-6]
+[.code-highlight: 8-10]
+```python
+name = "Alice"
+if name == "Alice":
+    print("Hello Alice")
+
+if name != "Charlie":
+    print("You are not Charlie")
+
+age = 24
+if age >= 21:
+    print("You are 21 or over")
+```
+
+---
+
+# Else
+
+---
+
+# Else
+
+```python
+if 1 == 1:
+    print("Yes")
+else:
+    print("No")    
+```
+
+---
+
+# Else
+
+```python
+if <expression>:
+    # Will only be run if the expression is True
+    <code>
+else:
+    # Will only be run if the expression is False
+    <code>
+```
+
+---
+
+# Else
+
+[.code-highlight: 1-5]
+[.code-highlight: 7-11]
+```python
+name = "Alice"
+if name == "Alice":
+    print("Hello Alice")
+else:
+    print("You are not Alice")
+
+age = 24
+if age >= 21:
+    print("You are 21 or over")
+else:
+    print("You are 20 or younger")
+```
 
 ---
 
@@ -157,15 +244,56 @@ print("In 10 years you will be " + str(age_in_10_years))
 
 ---
 
-# Else...
+# Elif
 
 ---
 
-# Elif...
+# Elif
+
+```python
+name = "Bob"
+if name == "Alice":
+    print("Hello Alice")
+elif name == "Bob":
+    print("Hello Bob")
+else:
+    print("You must be Charlie")
+```
+
+---
+
+# Elif
+
+```python
+age = int(input("How old are you? "))
+if age <= 13:
+    print("You are 13 or younger")
+elif age < 18:
+    print("You are between 14 and 17")
+elif age == 18:
+    print("You are 18")
+else:
+    print("You are 19 or over")
+```
 
 ---
 
 # And, Or, Not
+
+---
+
+# And, Or, Not
+
+```python
+if age > 12 and age < 20:
+    print("You are a teenager")
+
+if age < 13 or age > 19:
+    print("You are not a teenager")
+
+if not (age > 12 and age < 20):
+    print("You are not a teenager")
+```
 
 ---
 
@@ -178,7 +306,44 @@ print("In 10 years you will be " + str(age_in_10_years))
 
 ---
 
+# For Loops
+
+```python
+for x in range(1, 100):
+    print(x)
+```
+
+---
+
+# For Loops
+
+```python
+for <variable> in <range>:
+    # Runs multiple times depending on the range
+    <code>
+```
+
+---
+
 # Ranges
+
+---
+
+# Ranges
+
+[.code-highlight: 1-2]
+[.code-highlight: 4-5]
+[.code-highlight: 7-8]
+```python
+range(10)
+#[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+range(1, 5)
+#[1, 2, 3, 4]
+
+range(2000, 2020, 4)
+#[2000, 2004, 2008, 2012, 2016]
+```
 
 ---
 
@@ -191,7 +356,52 @@ print("In 10 years you will be " + str(age_in_10_years))
 
 ---
 
+# While Loops
+
+```python
+guess = None
+while guess != 4:
+    # Continues to ask for a number until you enter 4
+    guess = int(input("What's your number? "))
+```
+
+---
+
+# While Loops
+
+```python
+while <condition>:
+    # Runs over and over while condition is True
+    <code>
+```
+
+---
+
+# Infinite Loops
+
+---
+
+# Infinite Loops
+
+```python
+while True:
+    # This loops forever
+    print("Hello")
+```
+
+---
+
 # Break Statements
+
+---
+
+# Break Statements
+
+```python
+while True:
+    print("Hello")
+    break
+```
 
 ---
 
@@ -199,11 +409,59 @@ print("In 10 years you will be " + str(age_in_10_years))
 
 ---
 
+# Modules
+
+```python
+import random
+from math import floor
+```
+
+---
+
+# Modules
+
+```python
+import <module>
+from <module> import <function>
+
+<rest of code>
+```
+
+---
+
 # Random Module
 
 ---
 
+# Random Module
+
+```python
+import random
+
+# Random float from 0.0 to 1.0
+print random.random()
+
+# Gets a random number between 1 and 10
+number = random.randint(1, 10)
+```
+
+---
+
 # Math Module
+
+---
+
+# Math Module
+
+```python
+from math import floor, ceil
+
+number = floor(3.2) # 3
+print(floor(9.99)) # 9
+
+number = ceil(3.2) # 4
+print(ceil(9.99)) # 10
+```
 
 ---
 
