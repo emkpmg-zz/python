@@ -40,11 +40,13 @@ has_paid = False
 
 # Data Types
 
-String
-Integer
-Float
-Boolean
-None
+| Type | Example |
+| --- | --- |
+| String | "Alice" |
+| Integer | 13 |
+| Float | 3.99 |
+| Boolean | True |
+| None | None |
 
 ---
 
