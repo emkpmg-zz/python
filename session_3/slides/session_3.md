@@ -358,10 +358,29 @@ while fname != "":
 # [fit]Coding Time
 ## Section C
 
-Ask the user to enter a persons name, if they enter a name, ask for the persons age. Store this information in a dictionary inside a list. Continue to ask for names until no name is given. Then print out all of the names and ages collected
+---
+
+Q: Ask the user to enter a persons name, if they enter a name, ask for the persons age. Store this information in a dictionary inside a list. Continue to ask for names until no name is given. Then print out all of the names and ages collected.
 
 ---
 
+Q: Ask the user to enter a persons name, if they enter a name, ask for the persons age. Store this information in a dictionary inside a list. Continue to ask for names until no name is given. Then print out all of the names and ages collected.
+
+```python
+contacts = []
+fname = None
+
+while fname != "":
+    fname = input("What is your first name? ")
+    lname = input("What is your last name? ")
+
+    contacts.append({
+        "fname": fname,
+        "lname": lname
+    })
+```
+
+---
 
 # Exercises
 
