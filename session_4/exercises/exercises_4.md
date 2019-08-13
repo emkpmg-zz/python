@@ -7,8 +7,8 @@
 5. Write a function that accepts a word and returns it backwards, e.g. 'hello' -> 'olleh'
 
 ## Section B
-1. Read the file '' and print its content to the screen
-2. Ask the user to enter their name and write this to a file called 'register.txt'
-3. Each line of the file '' contains a number, write a script to add up all the values in the file
-4. Create a new file called 'even.txt' that contains only the even numbers from the file ''
-5. '' contains a secret message. Each number represents the letter of the alphabet where 1 = A, 2 = B ... Z = 26. Work out what the secret message says.
+1. Read the file 'jabberwocky.txt' and print its content to the screen
+2. Ask the user to enter their name and append this to a file called 'register.txt'
+3. Each line of the file 'numbers.txt' contains a number, write a script to add up all the values in the file
+4. Create a new file called 'even.txt' that contains only the even numbers from the file 'numbers.txt'
+5. 'secret.txt' contains a secret message. Each number represents the letter of the alphabet where 1 = A, 2 = B ... Z = 26. Work out what the secret message says.
