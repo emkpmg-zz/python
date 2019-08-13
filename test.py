@@ -14,3 +14,30 @@ while name != "":
 
 for person in names:
     print(person['name'] + " is " + str(person['age']))
+
+
+
+[
+    {
+        "fname": "bob",
+        "lname": "smith",
+        "age": 54,
+        kids: [t
+            {
+                "fname": "Jane",
+                "lname": "smith",
+                "age": 12,
+                "kids": None
+            },
+            {
+                "fname": "Chris",
+                "lname": "smith",
+                "age": 21,
+                "kids": [
+
+                ]
+            },
+        ]
+    }
+
+]
