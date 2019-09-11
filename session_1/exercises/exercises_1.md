@@ -28,3 +28,10 @@
 - Ask the user to enter their age, tell them how old they will be in 15 years time
 - Combine the two input statements above and print out the message "Hello, <name>, you are currently <age> years old. In 15 years time you will be <age_in_15_years_time>"
 - Ask the user to enter their hometown, print it out in uppercase letters
+
+## Section D
+1. Ask for the user's name, if they are called "Bob", print "Welcome Bob!"
+2. Ask for the user's name, if they are not called "Alice", print "You're not Alice!"
+3. Ask the user for a password, if they enter the password "qwerty123", print "You have successfully logged in". If they get it wrong, print "Password failure"
+4. Ask the user to enter a number, if the number is even, print "Even", otherwise print "Odd"
+5. Ask the user for 2 different numbers, if the total of the two numbers is over 21, print "Bust" otherwise print "Safe"
