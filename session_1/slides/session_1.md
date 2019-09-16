@@ -57,6 +57,14 @@ send_emails.py
 
 ---
 
+# Naming Python Files
+
+- Lowercase
+- Underscore instead of spaces
+- No punctuation 
+
+---
+
 # Running a Python Script
 
 ---
@@ -89,17 +97,21 @@ $
 
 ---
 
+# [fit] <user>.code.ihf.apps.cloud-ops.co.uk
+
+---
+
 # Hello, world!
-#### Code:
+Code — hello.py:
 
 ```python
 print("Hello, <your name here>")
 ```
 
-#### To Run:
+To Run:
 
 ```
-$ python <file_name>.py
+$ python hello.py
 ```
 
 ---
@@ -146,6 +158,8 @@ has_paid = False
 
 # Strings
 
+Characters surrounded by quotes
+
 ```python
 name = "Alice"
 address = "123 Station Road"
@@ -187,6 +201,8 @@ shopping_list = "Apples\nBread\nMilk\nEggs"
 
 # Integer
 
+A whole number
+
 ```python
 age = 17
 days_in_january = 31
@@ -200,6 +216,8 @@ bottles_sitting_on_the_wall = 99
 ----
 
 # Float
+
+A decimal number
 
 ```python
 price = 12.99
@@ -215,6 +233,8 @@ pi = 3.1415
 
 # Boolean
 
+True or False
+
 ```python
 has_paid = True
 vip = False
@@ -227,6 +247,8 @@ vip = False
 ---
 
 # None
+
+Absence of a value
 
 ```python
 last_film_seen = None

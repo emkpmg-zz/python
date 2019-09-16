@@ -16,13 +16,24 @@
 3. Ask the user to enter the name of a month. If the user enters March/April/May: print "<month> is in Spring", otherwise print "I don't know"
     1. Expand for the rest of the year, given that summer is June/July/August. Autumn is September/October/November. Winter is December/January/February
     2. Ensure that when an unknown month is given it prints "I don't know"
-4. Ask the user for two different numbers, if both numbers are even, print "Even", if both numbers are odd, print "Odd", else print the product of two numbers
+4. Ask the user for two different numbers, if both numbers are even, print "Even", if both numbers are odd, print "Odd", else print the product of the two numbers
 
 ## Section C
-1. Print the numbers 1 to 100
-2. Print all odd numbers from 1 to 100
-3. The modern olympics started in 1896, print the years they have been held
-4. FizzBuzz – Write a program that prints the numbers from 1 to 100. For multiples of three, print “Fizz” instead of the number and for multiples of five, print “Buzz”. For numbers which are multiples of both three and five, print “FizzBuzz”
+1. Create the following list of items: Apples, Cherries, Pears, Pineapple, Peaches, Mango
+2. Add "Grapes" to the list
+3. Change "Pears" to "Strawberries"
+4. Remove "Apples" from the list
+5. Print out the current length of the list
+6. Print out the list
+7. Order the list alphabetically
+8. Print out the list again
+
+## Section D
+1. Loop through the list you created in section C and print each item out
+2. Print the numbers 1 to 100 (including the number 100)
+3. Print all odd numbers from 1 to 100
+4. The modern olympics started in 1896, print the years they have been held
+5. FizzBuzz – Write a program that prints the numbers from 1 to 100. For multiples of three, print “Fizz” instead of the number and for multiples of five, print “Buzz”. For numbers which are multiples of both three and five, print “FizzBuzz”
 
     ```
     1
@@ -41,11 +52,3 @@
     14
     FizzBuzz
     ```
-
-## Section D
-1. Print 10 random numbers
-2. Keep asking the user to enter a number until they enter the number 7, then print "Wow lucky number 7!"
-    - Rewrite so that the number being guessed is a random value from 1 to 10
-3. The area of a rectangle is width multiplied by height. Ask the user to enter a width and height in cm, then print the area to the complete square metre
-4. Ask the user for a password, if they enter the password "qwerty123", print "You have successfully logged in". If they get it wrong, print "Password failure" and then ask them to enter it again. Only allow them to enter the password wrong 3 times before printing "System Locked!"
-5. Rock, Paper, Scissors - Create a simple rock, paper, scissors game which is run against computer

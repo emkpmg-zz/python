@@ -7,14 +7,27 @@
 
 ---
 
+# Text Editor
+
+---
+
+# [fit] <user>.code.ihf.apps.cloud-ops.co.uk
+
+---
+
 # Running a Python Script
 
 ---
 
 # Running a Python Script
 
+[.code-highlight: 1]
+[.code-highlight: all]
 ```
 $ python <file_name>.py
+
+$ python hello_world.py
+Hello, World!
 ```
 
 ---
@@ -40,13 +53,13 @@ has_paid = False
 
 # Data Types
 
-| Type | Example |
-| --- | --- |
-| String | "Alice" |
-| Integer | 13 |
-| Float | 3.99 |
-| Boolean | True |
-| None | None |
+| Type | Example | |
+| --- | --- | --- |
+| String | "Alice" | Characters surrounded by quotes
+| Integer | 13 | Whole number
+| Float | 3.99 | Decimal number
+| Boolean | True | True or False
+| None | None | Absence of value
 
 ---
 
@@ -131,6 +144,10 @@ print("In 10 years you will be " + str(age_in_10_years))
 
 ---
 
+# [fit]Questions?
+
+---
+
 # Conditionals
 
 ---
@@ -157,6 +174,20 @@ if False:
 if <expression>:
     # Will only be run if the expression is True
     <code>
+```
+
+---
+
+# Indenting
+
+---
+
+# Indenting
+
+```python
+name = "Alice"
+if name == "Alice":
+    print("Hello Alice")
 ```
 
 ---
@@ -304,6 +335,106 @@ if not (age > 12 and age < 20):
 
 ---
 
+# List
+
+---
+
+# List
+
+```python
+names = ["Alice", "Bob", "Charlie"]
+print(names[0]) # Alice
+print(names[1]) # Bob
+print(names[2]) # Charlie
+```
+
+---
+
+# List — Append
+
+```python
+names = ["Alice", "Bob", "Charlie"]
+
+# Append a new value to the end of the list
+names.append("Dave")
+
+print(names) # ["Alice", "Bob", "Charlie", "Dave"]
+
+```
+
+---
+
+# List — Change
+
+```python
+names = ["Alice", "Bob", "Charlie"]
+
+# Change the value stored in index 2
+names[2] = "Chris"
+
+print(names) # ["Alice", "Bob", "Chris"]
+
+```
+
+---
+
+# List — Delete
+
+```python
+names = ["Alice", "Bob", "Charlie"]
+
+# Delete the item at index 1
+del(names[1])
+
+print(names) # ["Alice", "Charlie"]
+
+```
+
+---
+
+# List — In
+
+```python
+names = ["Alice", "Bob", "Charlie"]
+
+# Check to see if "Eve" is in the list
+if "Eve" in names:
+    print("Eve is here")
+else:
+    print("Eve isn't here")
+```
+
+---
+
+# List — Length
+
+```python
+names = ["Alice", "Bob", "Charlie"]
+
+# Get the number of items in the list
+print(len(names)) # 3
+```
+
+---
+
+# List — Sort
+
+```python
+names = ["Charlie", "Alice", "Bob"]
+
+# Sort the items in the list alphabetically
+names.sort()
+
+print(names) # ["Alice", "Bob", "Charlie"]
+```
+
+---
+
+# [fit]Coding Time
+## Section C
+
+---
+
 # For Loops
 
 ---
@@ -311,8 +442,14 @@ if not (age > 12 and age < 20):
 # For Loops
 
 ```python
-for x in range(1, 100):
-    print(x)
+names = ["Alice", "Bob", "Charlie"]
+
+for person in names:
+    print(person)
+
+# Alice
+# Bob
+# Charlie
 ```
 
 ---
@@ -320,9 +457,24 @@ for x in range(1, 100):
 # For Loops
 
 ```python
-for <variable> in <range>:
-    # Runs multiple times depending on the range
+for <item> in <items>:
+    # Runs once for each item in items
     <code>
+```
+
+---
+
+# For Loops
+
+```python
+for my_number in range(5):
+    print(my_number)
+
+# 0
+# 1
+# 2
+# 3
+# 4
 ```
 
 ---
@@ -345,124 +497,6 @@ range(1, 5)
 
 range(2000, 2020, 4)
 #[2000, 2004, 2008, 2012, 2016]
-```
-
----
-
-# [fit]Coding Time
-## Section C
-
----
-
-# While Loops
-
----
-
-# While Loops
-
-```python
-guess = None
-while guess != 4:
-    # Continues to ask for a number until you enter 4
-    guess = int(input("What's your number? "))
-```
-
----
-
-# While Loops
-
-```python
-while <condition>:
-    # Runs over and over while condition is True
-    <code>
-```
-
----
-
-# Infinite Loops
-
----
-
-# Infinite Loops
-
-```python
-while True:
-    # This loops forever
-    print("Hello")
-```
-
----
-
-# Break Statements
-
----
-
-# Break Statements
-
-```python
-while True:
-    print("Hello")
-    break
-```
-
----
-
-# Modules
-
----
-
-# Modules
-
-```python
-import random
-from math import floor
-```
-
----
-
-# Modules
-
-```python
-import <module>
-from <module> import <function>
-
-<rest of code>
-```
-
----
-
-# Random Module
-
----
-
-# Random Module
-
-```python
-import random
-
-# Random float from 0.0 to 1.0
-print random.random()
-
-# Gets a random number between 1 and 10
-number = random.randint(1, 10)
-```
-
----
-
-# Math Module
-
----
-
-# Math Module
-
-```python
-from math import floor, ceil
-
-number = floor(3.2) # 3
-print(floor(9.99)) # 9
-
-number = ceil(3.2) # 4
-print(ceil(9.99)) # 10
 ```
 
 ---

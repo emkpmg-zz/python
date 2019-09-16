@@ -16,11 +16,9 @@
 - Write code that prints the value of 8 multiplied by 7
 - Write code that prints the value of 144 divided by 12
 - Write code that prints the value of the remainder of 67 divided by 12
-- Write code that finds the value of `(2 * 4) – (6 / 3) + 5`
-- Write code that finds the value of `(48 / 12) * (67 - 24) - 11`
+- Write code that finds the value of 20 from `4 - 2 * 6 / 3 * 5`. Hint: you might need brackets
 
 ## Section C
-- Create and then print out a variable called 'has_paid' that contains a boolean
 - Create two variables that hold the width and height of a rectangle, work out and store the area in a third variable. Print out the string: `Rectangle of width <x> and height <y> has an area of <area>`
 - Write code that prints the length of the string, 'python'
 - Print out the first and third letter of the word 'python'
