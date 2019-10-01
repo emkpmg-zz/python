@@ -7,6 +7,74 @@
 
 ---
 
+# Modules
+
+```python
+import random
+from math import floor
+```
+
+---
+
+# Random Module
+
+```python
+import random
+
+# Random float from 0.0 to 1.0
+print random.random()
+
+# Gets a random number between 1 and 10
+number = random.randint(1, 10)
+```
+
+---
+
+# Math Module
+
+```python
+from math import floor, ceil
+
+number = floor(3.2) # 3
+print(floor(9.99)) # 9
+
+number = ceil(3.2) # 4
+print(ceil(9.99)) # 10
+```
+
+---
+
+# While Loops
+
+```python
+guess = None
+while guess != 4:
+    # Continues to ask for a number until you enter 4
+    guess = int(input("What's your number? "))
+```
+
+---
+
+# Infinite Loops
+
+```python
+while True:
+    # This loops forever
+    print("Hello")
+```
+
+---
+
+# Break Statements
+
+```python
+while True:
+    print("Hello")
+    break
+```
+
+---
+
 # Collections
 
 - List
@@ -116,6 +184,10 @@ for person in contacts:
 
 ---
 
+# [fit]Questions?
+
+---
+
 # Functions
 
 ---
@@ -201,6 +273,11 @@ def <function_name>(<param_1>, <param_2>, ...):
 
 ---
 
+# [fit]Coding Time
+## Section A
+
+---
+
 # Functions — Returning
 
 ```python
@@ -279,7 +356,7 @@ def calc_factorial(x):
 ---
 
 # [fit]Coding Time
-## Section A
+## Section B
 
 ---
 
@@ -366,7 +443,7 @@ f.close()
 ---
 
 # [fit]Coding Time
-## Section B
+## Section C
 
 ---
 
