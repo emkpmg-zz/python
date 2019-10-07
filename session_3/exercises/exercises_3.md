@@ -18,3 +18,12 @@
 
 ## Section C
 1. Ask the user to enter a persons name, if they enter a name, ask for the persons age. Store this information in a dictionary inside a list. Continue to ask for names until no name is given. Then print out all of the names and ages collected
+2. The beetle game is a dice game where depending on what you roll is how much of the beetle you can draw.
+If you roll a 6, you can draw the body
+If you roll a 5, you can draw the head
+If you roll a 4, you can draw the legs (but remember, you cannot draw legs without a body)
+If you roll a 3, you can draw the antenna (but remember, you cannot draw antenna without a head)
+If you roll a 2, you can draw the eyes (but remember, you cannot draw eyes without a head)
+If you roll a 1, you can draw the smile (but remember, you cannot draw a smile without a head)
+Create the beetle game.
+
