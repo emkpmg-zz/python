@@ -5,3 +5,5 @@ apple = {
     "Price": 0.39,
     "Colour": "Green"
 }
+
+print(apple)
