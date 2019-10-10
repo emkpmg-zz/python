@@ -92,11 +92,6 @@ def <function_name>(<param_1>, <param_2>, ...):
 
 ---
 
-# [fit]Coding Time
-## Section A
-
----
-
 # Functions — Returning
 
 ```python
@@ -209,7 +204,7 @@ for x in f:
 
 # [fit]Coding Time
 ## Section A
-
+# cd kpmg-python-course/session_5/examples/
 ---
 
 # Files — Handling
