@@ -62,6 +62,27 @@ hello("Charlie", 17)
 
 ---
 
+# Functions — Parameters
+
+```python
+def area(x, y, z):
+    print("The area is " + str(x * y * z))
+
+area(12, 3, 4)
+area(6, 14, 10)
+```
+
+---
+
+# Functions — Parameters
+
+```python
+def <function_name>(<param_1>, <param_2>, ...):
+    <your code here>
+```
+
+---
+
 # Functions — Returning
 
 ```python
