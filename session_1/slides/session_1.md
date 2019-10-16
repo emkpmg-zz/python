@@ -41,7 +41,7 @@ print("Hello, World!")
 # Naming Python Files
 
 ```
-<what_the_script_does>.py
+what_the_script_does.py
 ```
 ---
 
@@ -61,7 +61,7 @@ send_emails.py
 
 - Lowercase
 - Underscore instead of spaces
-- No punctuation 
+- No punctuation
 
 ---
 
@@ -105,7 +105,7 @@ $
 Code — hello.py:
 
 ```python
-print("Hello, <your name here>")
+print("Hello, Meggie")
 ```
 
 To Run:

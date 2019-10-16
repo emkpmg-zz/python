@@ -20,15 +20,6 @@ def hello_world():
 
 ---
 
-# Functions — Create
-
-```python
-def <function_name>():
-    <your code here>
-```
-
----
-
 # Functions — Call
 
 [.code-highlight: 4]
@@ -71,32 +62,6 @@ hello("Charlie", 17)
 
 ---
 
-# Functions — Parameters
-
-```python
-def area(x, y, z):
-    print("The area is " + str(x * y * z))
-
-area(12, 3, 4)
-area(6, 14, 10)
-```
-
----
-
-# Functions — Parameters
-
-```python
-def <function_name>(<param_1>, <param_2>, ...):
-    <your code here>
-```
-
----
-
-# [fit]Coding Time
-## Section A
-
----
-
 # Functions — Returning
 
 ```python
@@ -105,17 +70,6 @@ def area(x, y, z):
 
 cube1 = area(12, 3, 4)
 cube2 = area(6, 14, 10)
-```
-
----
-
-# Functions — Returning
-
-```python
-def <function_name>(<param_1>, <param_2>, ...):
-    <your code here>
-
-    return <value>
 ```
 
 ---
@@ -184,7 +138,7 @@ ___
 
 # Files — Open
 ```python
-f = open("<file>.txt", "r")
+f = open("my_file.txt", "r")
 ```
 
 ---
@@ -192,7 +146,7 @@ f = open("<file>.txt", "r")
 # Files — Read
 
 ```python
-f = open("<file>.txt", "r")
+f = open("my_file.txt", "r")
 print(f.read())
 ```
 
@@ -201,7 +155,7 @@ print(f.read())
 # Files — Read
 
 ```python
-f = open("<file>.txt", "r")
+f = open("my_file.txt", "r")
 for x in f:
   print(x)
 ```
@@ -209,6 +163,9 @@ for x in f:
 
 # [fit]Coding Time
 ## Section A
+```
+cd kpmg-python-course/session_5/examples/
+```
 
 ---
 
@@ -220,7 +177,6 @@ for x in f:
 | "a" | Append | Opens a file for appending, creates the file if it does not exist
 | "w" | Write | Opens a file for writing, creates the file if it does not exist
 | "x" | Create | Creates the specified file, returns an error if the file exists
-
 
 ---
 
