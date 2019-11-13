@@ -4,3 +4,15 @@
 # ****
 # **
 # *
+
+
+def print_stars(x):
+    star = ""
+    for stars in range(0, x):
+        star = star + "*"
+    print(star)
+    if x > 1:
+        print_stars(x-1)
+
+
+print_stars(50)
