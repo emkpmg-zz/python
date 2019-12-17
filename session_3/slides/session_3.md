@@ -58,6 +58,21 @@ for name in names:
 
 ---
 
+# For Loops
+
+```python
+names = ["Alice", "Bob", "Charlie"]
+
+for person in names:
+    print(person)
+
+# Alice
+# Bob
+# Charlie
+```
+
+---
+
 # Ranges
 
 [.code-highlight: 1-2]
@@ -75,22 +90,6 @@ range(2000, 2020, 4)
 ```
 
 ---
-
-# For Loops
-
-```python
-names = ["Alice", "Bob", "Charlie"]
-
-for person in names:
-    print(person)
-
-# Alice
-# Bob
-# Charlie
-```
-
----
-
 # For Loops
 
 ```python

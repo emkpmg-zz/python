@@ -259,7 +259,7 @@ items_in_basket = None
 | * | Multiplication | `3 * 7` |
 | / | Division | `9 / 3` |
 | ** | Exponent | `4 ** 2` |
-| % | Modulus (remainer) | `10 % 3` |
+| % | Modulus (remainder) | `10 % 3` |
 
 ---
 
