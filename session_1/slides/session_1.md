@@ -164,9 +164,9 @@ favourite_food = "Pizza"
 # Escaping
 
 ```
-\" = Double Quote
 \n = New line
 \t = Tab
+\" = Double Quote
 ```
 
 ---
