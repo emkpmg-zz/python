@@ -23,17 +23,6 @@
 
 ---
 
-# Hello, World!
-
----
-
-# Hello, World! — Example
-```python
-print("Hello, World!")
-```
-
----
-
 # Naming Python Files
 
 ---
