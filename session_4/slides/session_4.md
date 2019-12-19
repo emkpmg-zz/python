@@ -307,7 +307,7 @@ def calc_factorial(x):
         return (x * calc_factorial(x - 1))
 
 num = 4
-print("The factorial of " + num + " is " + str(calc_factorial(num)))
+print("The factorial of " + str(num) + " is " + str(calc_factorial(num)))
 ```
 
 ---
