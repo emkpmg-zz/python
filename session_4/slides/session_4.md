@@ -84,28 +84,6 @@ while True:
 
 ---
 
-# Collections — List
-
-```python
-names = ["Alice", "Bob", "Charlie"]
-
-print(names[1]) # Bob
-
-names.append("Dave") # ["Alice", "Bob", "Charlie", "Dave"]
-
-names[2] = "Chris" # ["Alice", "Bob", "Chris", "Dave"]
-
-del(names[1])# ["Alice", "Chris", "Dave"]
-
-if "Eve" in names:
-    print("Eve is here")
-
-for name in names:
-    print(name)
-```
-
----
-
 # Collections — Tuple
 
 ```python
